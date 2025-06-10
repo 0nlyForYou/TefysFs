@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #ffe9eb, #ffe9e2);
+overflow: hidden;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+.container svg {
+  width: 50%;
+  height: 50%;
+}
+
+.line {
+  fill: none;
+  stroke: crimson;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.lttr {
+  
+  fill:  #ff7173;
+  
+}
+
+
+
+.sound {
+  position: fixed;
+  color: crimson;
+  font-size: 1.6rem;
+  bottom: 1rem;
+  right: 1rem;
+  text-decoration: underline;
+  cursor: default;
+}
+.sound--off {
+  text-decoration: line-through;
+}
+
+.container2 {
+  width: 25rem;
+  height: 10rem;
+  position: relative;
+  margin-top: -150px;
+  margin-left: 600px;
+  
+}
+
+.svg-container2 {
+  z-index: 2;
+  position: absolute;
+  
+  
+}
+
+.mo-container2 {
+  width: 100%;
+  height: 100%;
+  
+}
